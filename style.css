@@ -1,0 +1,32 @@
+ *{
+ /*el astersco es el selector universal */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Las etiquetas se invocan por su nombre */
+p{
+    color: #210ab;
+}
+
+div{
+    border: 8px solid red
+}
+
+/*Las clases afectan a los elementos que contegan la msma clase*/
+
+.clase-caja{
+border: 8px solid:#e8ac09;
+background-color: #07bbdf;
+}
+
+.clase-parrafo{
+    color: #ffffff;
+}
+
+/* Los ID afectan a los elementos espec{ificos por su ID*/
+#fotografia{
+    border: 8px solid #e809bf;
+    width:500px
+}
